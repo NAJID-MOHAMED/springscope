@@ -1,0 +1,2 @@
+import { Activity } from 'lucide-react';
+export function Tracing(){return <section className="panel coming"><div className="stat-icon"><Activity/></div><div className="eyebrow">ROADMAP</div><h1>Runtime tracing</h1><p>Method execution tracing is planned for a future SpringScope backend milestone. This view will become available when the backend supports it.</p><span className="scope-tag">COMING SOON</span></section>}

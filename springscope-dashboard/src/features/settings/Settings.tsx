@@ -1,0 +1,2 @@
+import { api } from '../../lib/api/client';
+export function Settings(){return <><div className="page-heading"><div><div className="eyebrow">PREFERENCES</div><h1>Settings</h1><p>Dashboard connection configuration.</p></div></div><article className="panel settings"><h3>Backend API</h3><p>Configured API base URL</p><code>{api.defaults.baseURL}</code><p className="muted">Set VITE_API_BASE_URL in your .env file. The default development proxy forwards /springscope to localhost:8080.</p></article></>}

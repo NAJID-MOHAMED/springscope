@@ -1,0 +1,28 @@
+{
+  "groups": [
+    {
+      "name": "springscope",
+      "type": "com.springscope.autoconfigure.properties.SpringScopeProperties",
+      "description": "Configuration for the SpringScope developer inspection starter."
+    },
+    {
+      "name": "springscope.api",
+      "type": "com.springscope.autoconfigure.properties.SpringScopeProperties$Api",
+      "description": "REST API settings for SpringScope."
+    }
+  ],
+  "properties": [
+    {
+      "name": "springscope.enabled",
+      "type": "java.lang.Boolean",
+      "description": "Enable SpringScope inspection services and REST endpoints. Intended for local development.",
+      "defaultValue": true
+    },
+    {
+      "name": "springscope.api.base-path",
+      "type": "java.lang.String",
+      "description": "Base path for the SpringScope REST API. Must start with '/'.",
+      "defaultValue": "/springscope/api"
+    }
+  ]
+}
